@@ -19,7 +19,7 @@ export default function Navbar() {
 
         {/* Desktop Nav */}
         <div
-          className="hidden md:flex bg-white rounded-full px-6 py-3 items-center
+          className="hidden md:flex bg-white rounded-lg px-6 py-3 items-center
          gap-8 text-sm font-medium shadow-sm"
         >
           <NavLinks />
@@ -27,7 +27,7 @@ export default function Navbar() {
 
         {/* Desktop CTA */}
         <button
-          className="hidden md:flex items-center gap-3 bg-pink-300 rounded-full 
+          className="hidden md:flex items-center gap-3 bg-pink-300 rounded-lg
           px-5 py-3 text-sm font-semibold  transition-all duration-300 
           hover:translate-x-1 hover:-translate-y-1 hover:shadow-lg"
         >
